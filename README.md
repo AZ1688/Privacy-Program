@@ -20,6 +20,7 @@
 # Differential Privacy
 
 # Federated Analytics
+ -- TensorFlow Privacy 
 
 # Tools 
   - NIST List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
