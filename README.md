@@ -1,4 +1,11 @@
 # Privacy-Program - PET
+# Privacy Attacks
+  - linking attack
+  - membership inference attack
+  - local privacy poison attack 
+  - model inversion attack 
+  - white box access attack (secret sharer)
+  - 
 # Traditional PET 
 # Anonymization or pseudoanonymization 
   - Redaction
