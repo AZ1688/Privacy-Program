@@ -30,18 +30,18 @@
   
 # Secure Multiparty Computing (MPC)
 
-# Differential Privacy 
+# Differential Privacy (numeric vs. vector)
   - Ɛ-DP:  Random Response mechanism 
   - Ɛ-DP:  Laplace mechanism 𝐹(𝑥) = 𝑓(𝑥) + Lap (𝑠/𝜖)
   - (Ɛ, 𝛿)-DP: 
     - 𝖯𝗋[𝐹(𝑥)=𝑆]≤𝑒xp(𝜖)𝖯𝗋[𝐹(𝑥′)=𝑠]+𝛿, 
-      - With probability 1−𝛿, 𝖯𝗋[𝐹(𝑥)=𝑆]/𝖯𝗋[𝐹(𝑥′)=𝑠]≤𝑒𝜖 
+      - With probability 1−𝛿, 𝖯𝗋[𝐹(𝑥)=𝑆]/𝖯𝗋[𝐹(𝑥′)=𝑠]≤𝑒xp(𝜖)
       - With probability 𝛿, we get no guarantee at all
-      - 𝛿  to be very small - usually  1/𝑛(2)  or less
+      - 𝛿  to be very small - usually  1/𝑛**2  or less
   - Gausian mechanism  
-     - 𝐹(𝑥)=𝑓(𝑥) + N(𝛿(2))
-     - where 𝜎(2)=2𝑠(2)log(1.25/𝛿)/𝜖(2)
-     - Gaussian (normal) distribution with center 0 and variance  𝜎(2)
+     - 𝐹(𝑥)=𝑓(𝑥) + N(𝛿**2)
+     - where 𝜎**2=2*𝑠**2*log(1.25/𝛿)/𝜖**2
+     - Gaussian (normal) distribution with center 0 and variance  𝜎**2
      - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the Laplace mechanism
      -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
   - Renyi Mechanism
@@ -53,7 +53,7 @@
   - Local sensitivity places finite bounds on the sensitivity of some functions whose global sensitivity is difficult to bound. i.e. mean()
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
-  - count, histogram
+  - count, histogram, sum, mean
 # Federated Analytics
   - TensorFlow Privacy 
 
