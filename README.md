@@ -7,11 +7,14 @@
   - Generalization
   - k-anonymity, ℓ-diversity, t-closeness, (α,k)-anonymity, and δ-presence
   - de-identification 
-    - 
+    
 # Encryption 
   - Homomorphic encryption (PHE, SHE, FHE)
   - In-transit encryption
   - At rest encryption
+  -
+# Zero Knowledge Proofs
+
 # Trusted Execution  Environment (TEE) 
   - assured workloads, confidential computing, shielded VMs 
   -
