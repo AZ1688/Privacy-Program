@@ -61,6 +61,7 @@
 # Federated Analytics
   - TensorFlow Privacy 
   - Rényi Differential Privacy ( Gausian mechanism) 
+    - (𝛼,𝜖¯)-RDP mechanism
 
 # Tools 
   - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
