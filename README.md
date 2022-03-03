@@ -22,12 +22,16 @@
   
 # Secure Multiparty Computing (MPC)
 
-# Differential Privacy
+# Differential Privacy 
+ pure dp - laplace noise 
+ 
 
 # Federated Analytics
  -- TensorFlow Privacy 
 
 # Tools 
-  - NIST List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
+  - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
+  - FAIR  Factors Analysis in Information Risk, inviduals 
+  - NIST Privacy Risk Assessment Methodology (PRAM) : NISTIR 8062,  org privacy, cybersecurity, business, and IT personnel
   - 
 
