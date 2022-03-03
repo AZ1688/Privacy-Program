@@ -40,7 +40,7 @@
       - 𝛿  to be very small - usually  1/𝑛(2)  or less
   - Gausian mechanism  
      - 𝐹(𝑥)=𝑓(𝑥) + N(𝛿(2))
-     - where 𝜎(2)=2𝑠2log(1.25/𝛿)/𝜖(2)
+     - where 𝜎(2)=2𝑠(2)log(1.25/𝛿)/𝜖(2)
      - Gaussian (normal) distribution with center 0 and variance  𝜎(2)
   - Renyi Mechanism
 # Type of Queries
