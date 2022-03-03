@@ -35,9 +35,10 @@
   - Ɛ-DP:  Laplace mechanism 𝐹(𝑥) = 𝑓(𝑥) + Lap (𝑠/𝜖)
   - (Ɛ, 𝛿)-DP: Gausian mechanism
   - Renyi Mechanism
-
+# Type of Queries
+  - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
 # Federated Analytics
- -- TensorFlow Privacy 
+  - TensorFlow Privacy 
 
 # Tools 
   - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
