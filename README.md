@@ -12,7 +12,8 @@
   - Tokenization
   - Hashing
   - Generalization
-  - k-anonymity, ℓ-diversity, t-closeness, (α,k)-anonymity, and δ-presence
+  - k-anonymity (Homogeneity Attack, Background Knowledge Attack)
+  - ℓ-diversity, t-closeness, (α,k)-anonymity, and δ-presence
   - de-identification 
    
 # Encryption 
