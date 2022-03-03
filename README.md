@@ -44,16 +44,20 @@
      - Gaussian (normal) distribution with center 0 and variance  𝜎**2
      - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the Laplace mechanism
      -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
-  - Renyi Mechanism
+  - KL Max Divergence 
+  - Renyi Divergence
+  
 # Sensitivity
   - global sensitivity ( mechanism only)
     - the vector-valued Laplace mechanism requires the use of 𝐿1 sensitivity
     - while the vector-valued Gaussian mechanism allows the use of either 𝐿1 or 𝐿2 sensitivity
   - local sensitivity (mechanism and dataset)
   - Local sensitivity places finite bounds on the sensitivity of some functions whose global sensitivity is difficult to bound. i.e. mean()
+  
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
   - count, histogram, sum, mean
+  
 # Federated Analytics
   - TensorFlow Privacy 
 
@@ -61,7 +65,7 @@
   - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
   - FAIR  Factors Analysis in Information Risk, inviduals 
   - NIST Privacy Risk Assessment Methodology (PRAM) : NISTIR 8062,  org privacy, cybersecurity, business, and IT personnel
-  - 
+   
 # Readings
   - Differential Privacy: A Primer for a Non-Technical Audience
   - 
