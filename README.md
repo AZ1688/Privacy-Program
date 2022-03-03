@@ -42,7 +42,8 @@
      - 𝐹(𝑥)=𝑓(𝑥) + N(𝛿(2))
      - where 𝜎(2)=2𝑠(2)log(1.25/𝛿)/𝜖(2)
      - Gaussian (normal) distribution with center 0 and variance  𝜎(2)
-  - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the Laplace mechanism
+     - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the Laplace mechanism
+     -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
   - Renyi Mechanism
 # Sensitivity
   - the vector-valued Laplace mechanism requires the use of 𝐿1 sensitivity
