@@ -62,7 +62,8 @@
   - TensorFlow Privacy 
   - Rényi Differential Privacy ( Gausian mechanism) 
     - (𝛼,𝜖¯)-RDP mechanism
-
+  - Zero-Concentrated Differential Privacy 
+  - Exponential Mechanism for Finite Sets
 # Tools 
   - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
   - FAIR  Factors Analysis in Information Risk, inviduals 
