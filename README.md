@@ -37,6 +37,7 @@
   - Renyi Mechanism
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
+  - count, histogram
 # Federated Analytics
   - TensorFlow Privacy 
 
