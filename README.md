@@ -33,7 +33,10 @@
 # Differential Privacy 
   - Ɛ-DP:  Random Response mechanism 
   - Ɛ-DP:  Laplace mechanism 𝐹(𝑥) = 𝑓(𝑥) + Lap (𝑠/𝜖)
-  - (Ɛ, 𝛿)-DP: Gausian mechanism
+  - (Ɛ, 𝛿)-DP: Gausian mechanism  
+    - 𝖯𝗋[𝐹(𝑥)=𝑆]≤𝑒xp(𝜖)𝖯𝗋[𝐹(𝑥′)=𝑠]+𝛿, 
+      - With probability 1−𝛿, 𝖯𝗋[𝐹(𝑥)=𝑆]/𝖯𝗋[𝐹(𝑥′)=𝑠]≤𝑒𝜖 
+      - With probability 𝛿, we get no guarantee at all
   - Renyi Mechanism
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
