@@ -23,8 +23,10 @@
 # Secure Multiparty Computing (MPC)
 
 # Differential Privacy 
- pure dp - laplace noise 
- 
+  - Ɛ-DP:  Random Response mechanism 
+  - Ɛ-DP:  Laplace mechanism 
+  - (Ɛ, 𝛿)-DP: Gausian mechanism
+  - Renyi Mechanism
 
 # Federated Analytics
  -- TensorFlow Privacy 
@@ -34,4 +36,6 @@
   - FAIR  Factors Analysis in Information Risk, inviduals 
   - NIST Privacy Risk Assessment Methodology (PRAM) : NISTIR 8062,  org privacy, cybersecurity, business, and IT personnel
   - 
-
+# Readings
+  - Differential Privacy: A Primer for a Non-Technical Audience
+  - 
