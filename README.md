@@ -12,7 +12,7 @@
   - Tokenization
   - Hashing
   - Generalization
-  - k-anonymity (Homogeneity Attack, Background Knowledge Attack)
+  - k-anonymity (Homogeneity Attack, Background Knowledge Attack, NP-hard, naive algorithm is 𝑂(𝑛2))
   - ℓ-diversity, t-closeness, (α,k)-anonymity, and δ-presence
   - de-identification 
    
@@ -32,7 +32,7 @@
 
 # Differential Privacy 
   - Ɛ-DP:  Random Response mechanism 
-  - Ɛ-DP:  Laplace mechanism 
+  - Ɛ-DP:  Laplace mechanism 𝐹(𝑥) = 𝑓(𝑥) + Lap (𝑠/𝜖)
   - (Ɛ, 𝛿)-DP: Gausian mechanism
   - Renyi Mechanism
 
