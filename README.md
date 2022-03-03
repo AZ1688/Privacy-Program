@@ -46,8 +46,11 @@
      -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
   - Renyi Mechanism
 # Sensitivity
-  - the vector-valued Laplace mechanism requires the use of 𝐿1 sensitivity
-  - while the vector-valued Gaussian mechanism allows the use of either 𝐿1 or 𝐿2 sensitivity
+  - global sensitivity ( mechanism only)
+    - the vector-valued Laplace mechanism requires the use of 𝐿1 sensitivity
+    - while the vector-valued Gaussian mechanism allows the use of either 𝐿1 or 𝐿2 sensitivity
+  - local sensitivity (mechanism and dataset)
+  - Local sensitivity places finite bounds on the sensitivity of some functions whose global sensitivity is difficult to bound. i.e. mean()
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
   - count, histogram
