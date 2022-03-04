@@ -46,6 +46,20 @@
      -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
   - KL Max Divergence 
   - Renyi Divergence
+
+  - TensorFlow Privacy 
+  - Rényi Differential Privacy ( Gausian mechanism) 
+    - (𝛼,𝜖¯)-RDP mechanism
+  - Zero-Concentrated Differential Privacy 
+  - Exponential Mechanism 
+    - for Finite Sets
+    - Report Noisy Max
+  - Sparse Vector Mechanism (threshold, range queries)
+  - ML Privacy (gradient descent)
+  - Local DP
+    - Randomized Response
+    - Unary Coding
+  - Synthic Data 
   
 # Sensitivity
   - global sensitivity ( mechanism only)
@@ -59,11 +73,7 @@
   - count, histogram, sum, mean
   
 # Federated Analytics
-  - TensorFlow Privacy 
-  - Rényi Differential Privacy ( Gausian mechanism) 
-    - (𝛼,𝜖¯)-RDP mechanism
-  - Zero-Concentrated Differential Privacy 
-  - Exponential Mechanism for Finite Sets
+
 # Tools 
   - NIST Tool List https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools
   - FAIR  Factors Analysis in Information Risk, inviduals 
