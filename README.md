@@ -1,4 +1,39 @@
-# Privacy-Program - PET
+# Privacy Program Guide
+# Privacy Foundation
+  - privacy (user data graph) vs. security (asset safeguards intelligence)
+  - privacy/data protection in different countries (IAPP tracker)
+  - regulations in different states in U.S. (IAPP tracker)
+  - Regulators' expectations 
+  - Consumers/users sentiment
+  - Variances from different  
+  - Privacy litigations and industrial impacts
+# Privacy Program 
+  - Compliance frameworks
+      - ePprivacy, GDPR, Data Governance Act, proposed EU law from 2020
+      - other 17 countries- Personal Information Protection Law (PIPL) (China)
+      - Convention on Cybercrime
+      - California Consumer Privacy Act (CCPA)
+      - Children's Online Privacy Protection Act (COPPA)
+      - EU–US Privacy Shield
+      - Privacy and Electronic Communications Directive 2002
+  
+  - Privacy frameworks 
+    - NIST 800-53 (Basic Privacy REquirements)
+    - NIST IR 8062 (privacy engineering/risk factors)
+    - Circular A-130 
+    - ISO 27701 Privacy Information Management System
+    - ISO 27018 Cloud Privacy
+    - ISO/IEC 29100:2011 Information technology — Security techniques — Privacy framework
+
+  - Privacy Process
+      - Privacy Engineering ( Privacy By Design (7 principles))
+      - Privacy Impact Analysis 
+      - Data Protection Impact Analysis
+      - Common Operations: notice, consent, opt-in, opt-out, right to access/change/forget/legal, control on sales/share
+      - Privacy in data process pipiline (collection, ingestion, processing, storage, archival, retention, disposal)
+      - Privacy in SDLC (plan, code, test, deploy, operate, monitor)
+      - Privacy in developer tools (test data, IDE, testing tools)
+  
 # Privacy Attacks
   - linking attack
   - membership inference attack
