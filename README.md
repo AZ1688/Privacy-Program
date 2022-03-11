@@ -26,6 +26,7 @@
     - ISO/IEC 29100:2011 Information technology — Security techniques — Privacy framework
 
   - Privacy Process
+      - Privacy Readiness Assessment
       - Privacy Engineering ( Privacy By Design (7 principles))
       - Privacy Impact Analysis 
       - Data Protection Impact Analysis
@@ -33,7 +34,15 @@
       - Privacy in data process pipiline (collection, ingestion, processing, storage, archival, retention, disposal)
       - Privacy in SDLC (plan, code, test, deploy, operate, monitor)
       - Privacy in developer tools (test data, IDE, testing tools)
-  
+      - Data sharing or processing agreements
+      - Data classification/inventory/retention policy
+      - Automated Data Inventory
+      - Breach response /Crisis management/Reporting 
+      - Identity Protection/Credit monitoring
+       
+   - Measuring Program
+      - Privacy metrics determination or tracking
+
 # Privacy Attacks
   - linking attack
   - membership inference attack
@@ -77,32 +86,32 @@
      - 𝐹(𝑥)=𝑓(𝑥) + N(𝛿**2)
      - where 𝜎**2=2*𝑠**2*log(1.25/𝛿)/𝜖**2
      - Gaussian (normal) distribution with center 0 and variance  𝜎**2
-     - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the Laplace mechanism
+     - the Gaussian mechanism has two major drawbacks - it requires the use of the the relaxed  (𝜖,𝛿) -differential privacy definition, and it's less accurate than the    - Laplace mechanism
      -  For applications in which  𝐿2  sensitivity is much lower than  𝐿1  sensitivity, the Gaussian mechansim allows adding much less noise.
-  - KL Max Divergence 
-  - Renyi Divergence
-
-  - TensorFlow Privacy 
-  - Rényi Differential Privacy ( Gausian mechanism) 
+  - KL Max Divergence, Renyi Divergence
+   - RDP: Rényi Differential Privacy ( Gausian mechanism) 
     - (𝛼,𝜖¯)-RDP mechanism
-  - Zero-Concentrated Differential Privacy 
+  - zCDP/; Zero-Concentrated Differential Privacy 
   - Exponential Mechanism 
     - for Finite Sets
     - Report Noisy Max
   - Sparse Vector Mechanism (threshold, range queries)
   - ML Privacy (gradient descent)
+  - Emprical risk minimization (ERM) 
+    - Bayesian noise 
   - Local DP
     - Randomized Response
-    - Unary Coding
-  - Synthic Data 
+    - Unary Coding 
+  - Synthetic Data 
   
-# Sensitivity
+# Sensitivity 
   - global sensitivity ( mechanism only)
     - the vector-valued Laplace mechanism requires the use of 𝐿1 sensitivity
     - while the vector-valued Gaussian mechanism allows the use of either 𝐿1 or 𝐿2 sensitivity
   - local sensitivity (mechanism and dataset)
   - Local sensitivity places finite bounds on the sensitivity of some functions whose global sensitivity is difficult to bound. i.e. mean()
-  
+# Upper and Lower Bounds
+
 # Type of Queries
   - sequential (kƐ), parallel(Ɛ), post-processing (Ɛ1+Ɛ2)
   - count, histogram, sum, mean
