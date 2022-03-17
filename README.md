@@ -1,4 +1,5 @@
 # Privacy Program Guide
+# Governance, organization, operations (assessment, protect, sustain, respond), continuous improvement
 # Privacy Foundation
   - privacy (user data graph) vs. security (asset safeguards intelligence)
   - privacy/data protection in different countries (IAPP tracker)
